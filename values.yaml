@@ -1,0 +1,13 @@
+cloud: gcp
+monitoring:
+  enabled: false
+api:
+  hostname: api.jambonz.local
+webapp:
+  hostname: webapp.jambonz.local
+sbcSip:
+  loglevel: info
+  sofiaLoglevel: "3"
+global:
+  recordings:
+    enabled: false

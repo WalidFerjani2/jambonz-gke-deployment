@@ -23,7 +23,7 @@ But before we jump into the technical steps, let's understand what we're actuall
 
 #### What is Kubernetes?
 
-Think of Kubernetes as a smart system that automatically manages your applications. Instead of manually starting, stopping, and monitoring each piece of software, Kubernetes does it for you. It's like having an orchestra conductor that makes sure all your applications (the musicians) are playing together harmoniously.
+Think of Kubernetes as a smart system that automatically manages your applications. Instead of manually starting, stopping, and monitoring each piece of software, Kubernetes does it for you. It's like having an orchestra conductor that makes sure all your applications (= the musicians) playing together harmoniously.
 
 Here are the basic building blocks:
 

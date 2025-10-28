@@ -75,6 +75,15 @@ By the end of this guide, you'll have a fully functional VoIP platform running o
 
 ---
 
+## Project Architecture
+
+The diagram below showcases what we are deploying, highlighting the LoadBalancers with their 3 public IPs, the Kubernetes cluster with 3 nodes, and the different layers within our project.
+
+![Project Architecture](images/architecture.png)
+
+
+---
+
 ## Prerequisites
 
 You'll need:
@@ -449,4 +458,21 @@ You should see REGISTER requests and 200 OK responses when clients register succ
 4. Answer and verify audio works
 
 ---
+
+## Resources
+
+### Documentation
+- [Jambonz Docs](https://docs.jambonz.org/) | [GitHub](https://github.com/jambonz) | [Slack Community](https://jambonz.org/slack)
+- [Kubernetes Docs](https://kubernetes.io/docs/) | [kubectl Cheat Sheet](https://kubernetes.io/docs/reference/kubectl/cheatsheet/)
+- [GKE Documentation](https://cloud.google.com/kubernetes-engine/docs) | [Best Practices](https://cloud.google.com/kubernetes-engine/docs/best-practices)
+- [Helm Documentation](https://helm.sh/docs/)
+
+### Tools
+- [Zoiper SIP Client](https://www.zoiper.com/en/voip-softphone/download/current)
+- [gcloud CLI](https://cloud.google.com/sdk/docs/install)
+
+
+---
+
+**Document Version:** 1.0
 
